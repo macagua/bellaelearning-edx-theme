@@ -1,0 +1,29 @@
+// BELLA Theme SASS overrides
+
+// Theme colors
+//
+// Note: define colors needed by your theme first
+
+// BELLA Logo Top color: #aa39e9
+$bella-logo-top-color: {{ BELLA_PRIMARY_COLOR }};
+// BELLA Logo Middle color: #4956f2
+$bella-logo-mid-color: {{ BELLA_SECONDARY_COLOR }};
+// BELLA Logo Bottom color: #397cff
+$bella-logo-bot-color: {{ BELLA_TERTIARY_COLOR }};
+// Background color
+$bella-background-color: #ffffff;
+// Words color
+$bella-words-color: #050505;
+
+// Make the Icon color as the primary color
+$primary: $bella-logo-top-color;
+$secondary: $bella-logo-mid-color;
+$tertiary: $bella-logo-bot-color;
+
+// Theme fonts
+$font-family-title: Plex;
+$serif: Crimson;
+$f-sans-serif: Crimson, 'Open Sans','Helvetica Neue', Helvetica, Arial, sans-serif;
+
+// Initialize the Open edX Bootstrap theme
+@import 'edx-bootstrap/sass/open-edx/theme';

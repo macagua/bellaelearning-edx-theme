@@ -1,0 +1,19 @@
+BELLA_WELCOME_MESSAGE: "The place for all your online learning"
+BELLA_PRIMARY_COLOR: "#aa39e9" # BELLA Logo Top color
+BELLA_SECONDARY_COLOR: "#4956f2" # BELLA Logo Middle color
+BELLA_TERTIARY_COLOR: "#397cff" # BELLA Logo Bottom color
+ 
+# Footer links are dictionaries with a "title" and "url"
+# To remove all links, write:
+# BELLA_FOOTER_NAV_LINKS: []
+# BELLA_FOOTER_LEGAL_LINKS: []
+BELLA_FOOTER_NAV_LINKS:
+  - title: "About"
+    url: "/about"
+  - title: "Contact"
+    url: "/contact"
+BELLA_FOOTER_LEGAL_LINKS:
+    - title: "Terms of service"
+      url: "/tos"
+    - title: "Bella Debraning theme for Open edX"
+      url: "https://gitlab.com/bellamdb/bellaelearning-edx-theme"
