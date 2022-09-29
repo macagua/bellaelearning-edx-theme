@@ -3,8 +3,21 @@ Bella Debraning theme for Open edX
 
 Bella Debraning is an elegant, customizable theme for `Open edX <https://open.edx.org>`__.
 
-.. image:: ./screenshots/01-landing-page.png
-    :alt: Platform landing page
+.. figure:: ./screenshots/01-landing-page-ecommerce.jpg
+  :alt: Platform landing page for E-learning Webapp
+  :align: center
+  :width: 1280px
+  :height: 960px
+
+  Platform landing page for E-learning Webapp
+
+.. figure:: ./screenshots/02-landing-page-studio.jpg
+  :alt: Platform landing page for Studio Webapp
+  :align: center
+  :width: 1280px
+  :height: 960px
+
+  Platform landing page for Studio Webapp
 
 **Note**: This version of the Bella Debraning theme is compatible with the Koa release of Open edX.
 
