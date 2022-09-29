@@ -17,7 +17,7 @@ Bella Debraning was specially developed to be used with `Tutor <https://docs.ove
 
 Clone the theme repository::
 
-    git clone https://gitlab.com/markdebrandworldwide/bellaelearning-edx-theme
+    git clone https://github.com/macagua/bellaelearning-edx-theme.git
 
 Render your theme::
 
@@ -52,7 +52,7 @@ Customization
 Setting custom values
 ~~~~~~~~~~~~~~~~~~~~~
 
-A few settings in the theme can be easily customised: this includes the theme primary color, landing page tagline, footer legal links. Theme settings are defined in the `config.yml <https://gitlab.com/markdebrandworldwide/bellaelearning-edx-theme/blob/master/config.yml>`__ file at the root of the repository. You can override all or part of those settings by creating you own ``config-custom.yml`` file. Then, render the theme with::
+A few settings in the theme can be easily customised: this includes the theme primary color, landing page tagline, footer legal links. Theme settings are defined in the `config.yml <https://github.com/macagua/bellaelearning-edx-theme/blob/master/config.yml>`__ file at the root of the repository. You can override all or part of those settings by creating you own ``config-custom.yml`` file. Then, render the theme with::
 
     tutor config render \
         --extra-config ./bellaelearning-edx-theme/config.yml \
@@ -62,7 +62,7 @@ A few settings in the theme can be easily customised: this includes the theme pr
 Changing the default logo and other images
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The theme images are stored in `bellaelearning-edx-theme/theme/lms/static/images <https://gitlab.com/markdebrandworldwide/bellaelearning-edx-theme/tree/master/theme/lms/static/images>`__ for the LMS, and in `bellaelearning-edx-theme/theme/cms/static/images <https://gitlab.com/markdebrandworldwide/bellaelearning-edx-theme/tree/master/theme/cms/static/images>`__ for the CMS. To use custom images in your theme, just replace the files stored in these folders with your own prior to running ``tutor config render``.
+The theme images are stored in `bellaelearning-edx-theme/theme/lms/static/images <https://github.com/macagua/bellaelearning-edx-theme/tree/master/theme/lms/static/images>`__ for the LMS, and in `bellaelearning-edx-theme/theme/cms/static/images <https://github.com/macagua/bellaelearning-edx-theme/tree/master/theme/cms/static/images>`__ for the CMS. To use custom images in your theme, just replace the files stored in these folders with your own prior to running ``tutor config render``.
 
 Overriding the default "about", "contact", etc. static pages
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -97,4 +97,4 @@ This new template will then be used to render the ``/donate`` url.
 License
 -------
 
-This work is licensed under the terms of the `GNU Affero General Public License (AGPL) <https://github.com/markdebrandworldwide/bellaelearning-edx-theme/blob/master/LICENSE.txt>`_.
+This work is licensed under the terms of the `GNU Affero General Public License (AGPL) <https://github.com/macagua/bellaelearning-edx-theme/blob/master/LICENSE.txt>`_.
